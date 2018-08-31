@@ -1,0 +1,4 @@
+[{"username": "dummy", "bad_answer": "nothing", "best_score": 10, "game_status": "ingame", "tries": 1, "score": 3, "games_played": 2, "password": "password", "current_round": 3}, 
+{"username": "kim", "bad_answer": "", "best_score": 0, "game_status": "ingame", "tries": 1, "score": 0, "games_played": 0, "password": "kim", "current_round": 1}, 
+{"username": "kim", "game_status": "ingame", "tries": 1, "score": 0, "bad_answer": "", "games_played": 0, "password": "lll", "best_score": 0, "current_round": 1},
+{"username": "kim", "bad_answer": "", "best_score": 0, "game_status": "ingame", "tries": 1, "score": 0, "games_played": 0, "password": "kim", "current_round": 1}]

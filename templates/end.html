@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Teko" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css" />
+    <title>{{ page_title }}</title>
+</head>
+
+<body>
+    <div class="container mainScreen">
+        <h2 class="endText">Thank you for playing {{ username }}...</h2>
+        <h2 class="endText">Your score is: {{ score }}</h2>
+    </div>
+    <div class="container topscore">
+        <p class="topplayers">Top Players:</p>
+        <table class="highScoreTable">
+            <tr>
+                <th>Place</th>
+                <th>Player name:</th>
+                <th>Score</th>
+            </tr>
+            {% for x in high_score %}
+            <tr>
+                <th>{{ loop.index }}</th>
+                <th>{{ x.name }}</th>
+                <th>{{ x.score }}</th>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    <div class="buttonAgain">
+        <a href="/{{ username }}"><button class="btn btn-success againButon" onclick="test()">Try Again</button></a>
+        <a href=/><button class="btn btn-success againButon" onclick="test()">New Player</button></a>
+    </div>
+    <footer>
+        <span class="footerTextLeft">&copy;2018 Maciej Pawelek</span>
+        <span class="footerTextRight">Project for Code Institute, Dublin</span>
+    </footer>
+
+</body>
+
+</html>

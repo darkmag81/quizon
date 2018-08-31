@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Teko|Luckiest+Guy|Tangerine" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" type="text/css" />
+    <title>{{ page_title }}</title>
+</head>
+
+<body>
+    <div class="content">
+        <h1 class="title">Quizon</h1>
+        <h2 class="titleSmall">Quiz Game created in Python</h2>
+    </div>
+    <div class="selectionBox">
+        <h5 class="menuText">Registered Players: {{ players_registered }}</h5>
+
+        <div class="smallContainer">
+            <a href="/login"><button class="buttons">Sign In</button></a>
+            <h7 class="menuText">Or</h7>
+            <a href="/register"><button class="buttons">Register</button></a>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <span class="footerTextLeft">&copy;2018 Maciej Pawelek</span>
+    <span class="footerTextRight">Project for Code Institute, Dublin</span>
+</footer>
+
+</html>

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "r1",
+    "description": "Which Turkish city has the name of a cartoon character?",
+    "answer": "batman",
+    "picture": "img/batman.jpg"
+  },
+  {
+    "name": "r2",
+    "description": "Name the world's largest ocean",
+    "answer": "pacific",
+    "picture": "img/pacific.jpg"
+  },
+  {
+    "name": "r3",
+    "description": "Who is the winner of FIFA World Cup 2018?",
+    "answer": "france",
+    "picture": "img/mundial.jpg"
+  },
+  {
+    "name": "r4",
+    "description": "What was Marilyn Monroe's natural hair colour?",
+    "answer": "ginger",
+    "picture": "img/monroe.jpg"
+  },
+  {
+    "name": "r5",
+    "description": "Which sea creature has three hearts?",
+    "answer": "octopus",
+    "picture": "img/sea.jpg"
+  },
+  {
+    "name": "r6",
+    "description": "Which planet is nearest the sun?",
+    "answer": "mercury",
+    "picture": "img/merc.jpg"
+  },
+  {
+    "name": "r7",
+    "description": "In what year was Google launched on the web?",
+    "answer": "1998",
+    "picture": "img/goog.jpg"
+  },
+  {
+    "name": "r8",
+    "description": "Which country is the origin of the cocktail Mojito?",
+    "answer": "cuba",
+    "picture": "img/moji.jpg"
+  },
+  {
+    "name": "r9",
+    "description": "What is the surname of this famous person?",
+    "answer": "hawking",
+    "picture": "img/hawk.jpg"
+  },
+  {
+    "name": "r10",
+    "description": "Who is the fourth musketeer besides D'Artagnan, Athos and Porthos?",
+    "answer": "aramis",
+    "picture": "img/aramis.jpg"
+  },
+  {
+    "name": "r11",
+    "description": "What does the name of the Russian newspaper Pravda mean?",
+    "answer": "truth",
+    "picture": "img/pravda.jpg"
+  },
+  {
+    "name": "r12",
+    "description": "Where is the centre of the Universe?",
+    "answer": "everywhere",
+    "picture": "img/universe.jpg"
+  }
+]

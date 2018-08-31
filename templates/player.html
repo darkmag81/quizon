@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Teko|Luckiest+Guy|Tangerine" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" type="text/css" />
+    <title>{{ page_title }}</title>
+</head>
+
+<body>
+    <div class="content">
+        <h1 class="title">Quizon</h1>
+        <h2 class="titleSmall">Quiz Game created in Python</h2>
+    </div>
+    <div class="selectionBoxPlayer">
+        <p>Welcome, {{ username }}</p>
+        <p>Number of Questions: {{ questions }}</p>
+        <p>You've registered on: {{ player_registration_date }}</p>
+        <p>Games played:</p>
+        <p>Last Score:</p>
+        <p>Top Score:</p>
+        <p>Last Wrong answer:</p>
+        <p>Game Status:</p>
+        <div class="homeButton"><a href="/{{username}}/play"><button class="buttons">New Game</button></a></div>
+        <div class="homeButton"><a href="/{{username}}/highscore"><button class="buttons">Top Players</button></a></div>
+        <div class="homeButton"><a href="/{{username}}/logoff"><button class="buttons logOffButton">Log Off</button></a></div>
+    </div>
+
+
+    <footer>
+        <span class="footerTextLeft">&copy;2018 Maciej Pawelek</span>
+        <span class="footerTextRight">Project for Code Institute, Dublin</span>
+    </footer>
+</body>
+
+</html>

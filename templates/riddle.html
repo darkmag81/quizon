@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Teko" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css" />
+    <title>{{ page_title }}</title>
+</head>
+
+<body>
+    <div class="container mainScreen">
+        <h1 class="title">Hello {{ username }}!</h1>
+        <h2 class="answerText">Your score: {{ score }}</h2>
+        <h2 class="answerText">Riddle {{riddle_index + 1}} of 12</h2>
+        <div class="usernameInput">
+            <!-- FORM -->
+            <div class="userInput">
+                <!-- JSON DATA-->
+                <h3 class="riddle"> {{ riddles_data[riddle_index]["description"] }} </h3>
+                <img class="picture" src="{{ url_for('static', filename=riddles_data[riddle_index]["picture"]) }}"></img>
+            </div>
+        </div>
+        <div class="centreForm">
+            <form method="POST" class="form-inline">
+                <input type="text" class="form-control" placeholder="answer" name="message" id="message" autofocus>
+                <input type="hidden" name="riddle_index" id="riddle_index" value={{riddle_index}}>
+                <input type="hidden" name="score" id="score" value={{score}}>
+                <input type="hidden" name="tries" id="tries" value={{tries}}>
+                <button class="btn btn-danger">Answer</button>
+            </form>
+        </div>
+        <div class="badanswers">
+            <p>{{ element_wrong_answer_text }}</p>
+        </div>
+    </div>
+    <footer>
+        <span class="footerTextLeft">&copy;2018 Maciej Pawelek</span>
+        <span class="footerTextRight">Project for Code Institute, Dublin</span>
+    </footer>
+</body>
+
+</html>

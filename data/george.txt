@@ -1,0 +1,22 @@
+Riddle 1, tries left 1: No answer
+Riddle 1, tries left 0: No answer
+Riddle 2, tries left 1: No answer
+Riddle 2, tries left 0: No answer
+Riddle 3, tries left 1: No answer
+Riddle 3, tries left 0: No answer
+Riddle 4, tries left 1: No answer
+Riddle 4, tries left 0: No answer
+Riddle 4, tries left 1: No answer
+Riddle 5, tries left 1: No answer
+Riddle 5, tries left 0: No answer
+Riddle 8, tries left 1: No answer
+Riddle 8, tries left 0: No answer
+Riddle 9, tries left 1: No answer
+Riddle 9, tries left 0: No answer
+Riddle 11, tries left 1: No answer
+Riddle 11, tries left 0: No answer
+Riddle 12, tries left 1: No answer
+Riddle 12, tries left 0: No answer
+***
+Score: 3
+***
