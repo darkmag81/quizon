@@ -1,6 +1,6 @@
 BzrTools==2.6.0
 Flask==1.0.2
-Jinja2==2.10
+Jinja2==2.11.3
 MarkupSafe==1.0
 Pillow==2.3.0
 PyJWT==1.6.4
