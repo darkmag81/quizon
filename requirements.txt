@@ -3,7 +3,7 @@ Flask==1.0.2
 Jinja2==2.10
 MarkupSafe==1.0
 Pillow==2.3.0
-PyJWT==1.6.4
+PyJWT==2.4.0
 SecretStorage==2.0.0
 Werkzeug==0.14.1
 argparse==1.2.1
